@@ -60,8 +60,11 @@ $(document).ready(function(){
     });
   });
 
+
+
+
   
-  /*-------script do menu hamburger*********/ 
+  /*-------script do menu hamburger---------*/ 
   const menuToggle = document.querySelector('.menu-toggle');
   const menu = document.querySelector('.menu');
       

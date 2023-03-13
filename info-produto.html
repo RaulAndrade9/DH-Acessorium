@@ -5,24 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./slick-1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="./slick-1.8.1/slick/slick-theme.css">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/produto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     
-    <title>Home</title>
+    <title>Compra finalizada</title>
 </head>
 <body>
 
     <header>
         <nav class="cabecalho">
             <div class="logo">
-                <a href="home.html"><img class="img-logo-home" src="./imagens/logo.svg"></a>
+                <a href="home.html"><img src="./imagens/logo.svg"></a>
             </div>
-            <button class="menu-toggle">Menu</button>
-            <ul class="menu">
+            <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="pulseiras.html">Pulseiras</a></li>
                 <li><a href="brincos.html">Brincos</a></li>
@@ -35,39 +33,32 @@
     </header>
 
     <main class="principal">
-        
-        <div class="carrossel">
-                <a href="colares.html"><img class="item_carrosel" src="./imagens/carrosel_colares.png"></a>
-                <a href="pulseiras.html"><img class="item_carrosel" src="./imagens/carrosel_pulseiras.png"></a>
-                <a href="brincos.html"><img class="item_carrosel" src="./imagens/carrossel_brincos.png"></a>
-                      
-        </div>
-
-        <section class="cards">
-            <article>
-                <img class=""  src="./imagens/card_frete.png">
-            </article>
-            <article>
-                <img class="cards_imagem" src="./imagens/card_desconto.png">
-            </article>
-            <article>
-                <img class="cards_imagem"  src="./imagens/card_pagamento.png">
-            </article>
-            <article>
-                <img  class="cards_imagem" src="./imagens/card_desconto.png">
-            </article>
-            
-        </section>
-
        
-
-        <section class="banner">
-            <article class="banner_item"><img class="imagem-banner" src="./imagens/home_banner1.png"></article>
-            <article class="banner_item"><img class="imagem-banner" src="./imagens/home_banner1.png"></article>
-        </section>
-
         
+      
+        <div class="entrega">
+          <div class="imagem-produto">
+               <a href="brincos.html"><img width="304px" height="290px" src="./imagens/produto2.png" alt="foto colar"></a> 
+              
+              <p>Descrição do produto</p>
+          </div>
+          
+          <div class="informacao-entrega">
+              <p>Informações do produto</p><br>
+              <p>Tamanho</p>
+              <p>Valor</p>
+              <p>Material</p>
+              <p>Modelo</p>
+              <br><br>
+          
+              
+              
+          </div>
+        </div>
         
+        <div class="container-button">
+          <button><a href="brincos.html">Voltar</a></button>
+        </div>
 
     </main>
 
@@ -106,10 +97,8 @@
     </footer>
 
    
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="./slick-1.8.1/slick/slick.js"></script>
-    <script src="./js/script.js"></script>
     
+    <script src="./js/script.js"></script>
 
     
 </body>
